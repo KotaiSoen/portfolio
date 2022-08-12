@@ -1,0 +1,18 @@
+<app-links></app-links>
+<div class="main-div">
+  <div>
+    <div class="image">
+      <img [src]="images[index].img">
+      <mat-icon class="left-icon hover" (click)="decreaseIndex()">keyboard_arrow_left</mat-icon>
+      <mat-icon class="right-icon hover" (click)="increaseIndex()">keyboard_arrow_right</mat-icon>
+    </div>
+    <div class="links">
+      <button><a [href]="images[index].liveLink" target="_blank" rel="noopener noreferrer">View Live</a></button>
+      <button><a [href]="images[index].gitHub" target="_blank" rel="noopener noreferrer">GitHub Repo</a></button> 
+    </div>
+  </div>
+  <div class="description">
+    <h4>Description:</h4>
+    <p>{{images[index].description}}</p>
+  </div>
+</div>

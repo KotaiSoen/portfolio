@@ -1,0 +1,14 @@
+<div class="main-div">
+    <div class="animation" *ngIf="introTime">
+            <h3 class="animated-intro white" style="--index: 1">Hi. My name is Kotai Daniel</h3>
+            <h4 class="animated-intro blue" style="--index: 2">I am a fullstack software developer</h4>
+            <h4 class="animated-intro purple" style="--index: 3">Ready to be of service</h4>
+    </div>
+    <div class="links" *ngIf="!introTime">
+        <p class="hover" routerLink="/expertise">Expertise</p>
+        <p class="hover" routerLink="/projects">Projects</p>
+        <p class="hover" routerLink="/contact">Contact</p>
+    </div>
+    
+
+</div>

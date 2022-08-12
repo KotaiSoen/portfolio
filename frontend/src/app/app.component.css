@@ -1,0 +1,74 @@
+.window-top-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.window-top {
+    display: inline-block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    transform: skew(20deg);
+    font-size: 1px;
+    padding: 1px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation: shake-top 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shake-top {
+    0% {
+        transform: skewY(20deg);
+    }
+    100% {
+        transform: skewY(-20deg);
+        background-color: purple;
+    }
+}
+
+.window-bottom-div {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+}
+
+.window-bottom {
+    display: inline-block;
+    background-color: darkblue;
+    height: 40px;
+    width: 40px;
+    transform: skew(20deg);
+    font-size: 1px;
+    padding: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation: shake-bottom 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shake-bottom {
+    0% {
+        transform: skewY(20deg);
+    }
+    100% {
+        transform: skewY(-20deg);
+        background-color: white;
+    }
+}
+
+@media (max-width: 767px) {
+    .window-bottom,
+    .window-top {
+        height: 25px;
+        width: 25px;
+    }
+    .window-top {
+        margin-top: 5px;
+    }
+    .window-bottom-div {
+        bottom: 5px;
+    }
+}

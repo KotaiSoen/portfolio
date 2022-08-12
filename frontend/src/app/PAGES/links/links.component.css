@@ -1,0 +1,6 @@
+.links {
+    position: fixed;
+    right: 20px;
+    top: 50px;
+    z-index: 999;
+}

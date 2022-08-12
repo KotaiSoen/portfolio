@@ -1,0 +1,96 @@
+.main-div {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img {
+    object-fit: contain;
+    width: 550px;
+}
+
+.image {
+    position: relative;
+}
+
+mat-icon {
+    color: white;
+    font-size: 60px;
+}
+
+.left-icon {
+    position: absolute;
+    top: 39%;
+    left: 15px;
+}
+
+.left-icon:hover {
+    color: rgb(37, 37, 37)
+}
+
+.right-icon {
+    position: absolute;
+    top: 40%;
+    right: 50px;
+}
+
+.right-icon:hover {
+    color: rgb(37, 37, 37)
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background: rgb(1, 102, 1);
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    color: white;
+    margin-top: 20px;
+}
+
+.description {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    img {
+        width: 300px;
+    }
+    mat-icon {
+        font-size: 40px;
+    }
+    .left-icon {
+        left: 10px;
+        top: 36.5%;
+    }
+    .right-icon {
+        right: 25px;
+        top: 37%;
+    }
+    .description {
+        width: 300px;
+    }
+}
+
