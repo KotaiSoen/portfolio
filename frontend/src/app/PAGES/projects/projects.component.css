@@ -20,7 +20,7 @@ img {
 }
 
 mat-icon {
-    color: white;
+    color: black;
     font-size: 60px;
 }
 
@@ -30,18 +30,10 @@ mat-icon {
     left: 15px;
 }
 
-.left-icon:hover {
-    color: rgb(37, 37, 37)
-}
-
 .right-icon {
     position: absolute;
     top: 40%;
     right: 50px;
-}
-
-.right-icon:hover {
-    color: rgb(37, 37, 37)
 }
 
 .links {
