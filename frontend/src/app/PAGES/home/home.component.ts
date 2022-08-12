@@ -17,8 +17,7 @@ export class HomeComponent implements OnInit {
   introTimeout() {
     setTimeout(() => {
       this.introTime = false
-      console.log('bro');
-    }, 10000)
+    }, 8500)
   }
 
 }
