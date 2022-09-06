@@ -16,6 +16,12 @@ export class ProjectsComponent implements OnInit {
       description: 'Your ultimate catwiki. All you need to know about your favorite breeds is here'
     },
     {
+      img: "../../../assets/images/chatapp.png",
+      liveLink: "https://kotai-chatapp.netlify.app",
+      gitHub: "https://github.com/KotaiSoen/chat-app.git",
+      description: 'A discord-like app. Create groups and chat with your friends'
+    },
+    {
       img: "../../../assets/images/blog.png",
       liveLink: "https://zoeysuser.netlify.app",
       gitHub: "https://github.com/KotaiSoen/Zoey-s-Blog/tree/main/blogUser",
